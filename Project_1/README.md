@@ -1,5 +1,8 @@
 # React + Vite
 
+<img align="right" src="public/Product Page.png" alt="Image 1" style="width: 50%;"/>
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -8,8 +11,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 ---
-
-<img align="right" src="public/Product Page.png" alt="Image 1" style="width: 48%;"/>
 
 # React
 
