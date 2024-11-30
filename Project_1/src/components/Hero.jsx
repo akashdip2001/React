@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <main className="hero">
+    <main className="hero main-container">
       <div className="hero-content">
         <h1>YOUR FEET DESERVE THE BEST</h1>
         <p>
@@ -10,13 +10,13 @@ const HeroSection = () => {
         </p>
         <div className="hero-button">
           <button>Shop Now</button>
-          <button>Category</button>
+          <button className="hero-button-2">Category</button>
         </div>
         <div className="social">
           <p>Also Available On</p>
-          <div className="social-icins">
-            <img src="../../public/img/amazon.png" alt="amazon-logo" />
+          <div className="social-icons">
             <img src="../../public/img/flipkart.png" alt="flipkart-logo" />
+            <img className="amazon-icon" src="../../public/img/amazon.png" alt="amazon-logo" />
           </div>
         </div>
       </div>

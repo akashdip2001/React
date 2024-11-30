@@ -1,6 +1,6 @@
 const Navigation = () => {
   return (
-    <nav>
+    <nav className="main-container">
       <div className="logo">
         <img src="../public/img/brand_logo.svg" alt="brand-logo" />
       </div>
@@ -10,7 +10,7 @@ const Navigation = () => {
         <li href="https://akashdip2001.github.io/website-2/">About</li>
         <li href="https://akashdip2001.github.io/linktree/">Contact</li>
       </ul>
-      <button>Login</button>
+      <button className="login-btn">Login</button>
     </nav>
   );
 };
