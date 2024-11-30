@@ -9,6 +9,8 @@ Currently, two official plugins are available:
 
 ---
 
+<img src="public/Product Page.png" alt="Image 1" style="width: 48%;"/>
+
 # React
 
 | [React install guide](https://react.dev/learn/start-a-new-react-project) | [use Vite](https://vite.dev/) |
