@@ -97,3 +97,33 @@ click the local URL and open the web-page. every component in this webpage is co
 </div>
 
 Then remove all tsx (exact like HTML) only type `Hello World` , And Remove all `css` files.
+
+Remove: App.jsx
+Remove: App.css
+Remove: index.css
+modified: Main.jsx
+
+```jsx
+createRoot(document.getElementById("root")).render(
+  <StrictMode>Hello World</StrictMode>
+);
+```
+
+---
+
+Its a function:
+```go
+const app = () => {
+}
+```
+But its a component:
+```go
+const App = () => {
+}
+```
+
+---
+
+
+
+

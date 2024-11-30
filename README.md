@@ -95,4 +95,13 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>Hello World</StrictMode>
 );
 ```
-
+Its a function:
+```go
+const app = () => {
+}
+```
+But its a component:
+```go
+const App = () => {
+}
+```
