@@ -15,10 +15,10 @@ const HeroSection = () => {
         <div className="social">
           <p>Also Available On</p>
           <div className="social-icons">
-            <img src="../../public/img/flipkart.png" alt="flipkart-logo" />
+            <img src="/img/flipkart.png" alt="flipkart-logo" />
             <img
               className="amazon-icon"
-              src="../../public/img/amazon.png"
+              src="./img/amazon.png"
               alt="amazon-logo"
             />
           </div>
