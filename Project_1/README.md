@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 ---
 
-<img src="public/Product Page.png" alt="Image 1" style="width: 48%;"/>
+<img align="right" src="public/Product Page.png" alt="Image 1" style="width: 48%;"/>
 
 # React
 
