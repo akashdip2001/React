@@ -16,12 +16,16 @@ const HeroSection = () => {
           <p>Also Available On</p>
           <div className="social-icons">
             <img src="../../public/img/flipkart.png" alt="flipkart-logo" />
-            <img className="amazon-icon" src="../../public/img/amazon.png" alt="amazon-logo" />
+            <img
+              className="amazon-icon"
+              src="../../public/img/amazon.png"
+              alt="amazon-logo"
+            />
           </div>
         </div>
       </div>
       <div className="hero-img">
-        <img src="../../public/img/shoe_image.svg" alt="shoe-img" />
+        <img src="public/img/shoe_image.svg" alt="shoe-img" />
       </div>
     </main>
   );
