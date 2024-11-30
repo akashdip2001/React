@@ -112,11 +112,14 @@ createRoot(document.getElementById("root")).render(
 ---
 
 Its a function:
+
 ```go
 const app = () => {
 }
 ```
+
 But its a component:
+
 ```go
 const App = () => {
 }
@@ -128,16 +131,17 @@ const App = () => {
 
 ```jsx
 const App = () => {
-    return (
-        <div>
-            <h1>My first Component</h1>
-        </div>
-    );
+  return (
+    <div>
+      <h1>My first Component</h1>
+    </div>
+  );
 };
 // 1.1 This is the default export of the App component
 // 1.1 so that it can be imported in other files
 export default App;
 ```
+
 ### use the component in `main.jsx` for `Render`
 
 ```jsx
@@ -152,24 +156,27 @@ createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 ```
+
 ## Add Css
 
 | [Google Font](https://fonts.google.com/selection/embed) |
-| --- |
+| ------------------------------------------------------- |
 
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 ```
+
 ### use font Family
 
 ```go
 font-family: "Poppins", serif;
 ```
+
 ### and use it in `App.css` file
+
 ```css
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -196,10 +203,37 @@ Project_1
 .     └── Component:
           │
           │── Navigation.jsx:
-          └── ... 
+          └── ...
+```
+
+```jsx
+const <Name> = () => {
+  return;
+};
+
+export default <Name>;
 ```
 
 <div style="display: flex; justify-content: space-between;">
   <img src="public/Redme/Breck components in another file (1).png" alt="Image 1" style="width: 48%;"/>
   <img src="public/Redme/Breck components in another file (2).png" alt="Image 2" style="width: 48%;"/>
 </div>
+
+```jsx
+import "./App.css";
+import Name from "./components/File_Name";
+import Navigation from "./components/Navigation";
+
+const App = () => {
+  return (
+    <div>
+      <Navigation />
+      <Name />
+    </div>
+  );
+};
+
+export default App;
+```
+
+---
