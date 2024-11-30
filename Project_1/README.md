@@ -1,6 +1,6 @@
 # React + Vite
 
-<img align="right" src="public/Redme/Product Page.png" alt="Image 1" style="width: 50%;"/>
+[<img align="right" src="public/Redme/Product Page.png" alt="Image 1" style="width: 50%;"/>](https://www.figma.com/design/QatspeUq9X9is2MqUb9nOs/Learn-React-with-10-Projects-(Copy)?node-id=1-2&t=gPT98llxcIEhEcih-1)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -8,6 +8,11 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<br>
+
+| [figma Link]() ----> Click the img |
+| --- |
 
 ---
 
