@@ -124,6 +124,32 @@ const App = () => {
 
 ---
 
+## Create a component in `App.jsx`
 
+```jsx
+const App = () => {
+    return (
+        <div>
+            <h1>My first Component</h1>
+        </div>
+    );
+};
+// 1.1 This is the default export of the App component
+// 1.1 so that it can be imported in other files
+export default App;
+```
+### use the component in `main.jsx` for `Render`
 
+```jsx
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App"; // 1.1 Import the App component from the App.jsx file
+
+createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <div>Hello World</div>
+    <App /> {/* // 1.1 Render the App component as a jsx element */}
+  </React.StrictMode>
+);
+```
 
