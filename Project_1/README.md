@@ -1,6 +1,6 @@
 # React + Vite
 
-<img align="right" src="public/Product Page.png" alt="Image 1" style="width: 50%;"/>
+<img align="right" src="public/Redme/Product Page.png" alt="Image 1" style="width: 50%;"/>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -88,12 +88,12 @@ npm run dev
 click the local URL and open the web-page. every component in this webpage is come from `App.jsx` file.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="public/default-web-page.png" alt="Image 1" style="width: 48%;"/>
-  <img src="public/default-web-page-code.png" alt="Image 2" style="width: 48%;"/>
+  <img src="public/Redme/default-web-page.png" alt="Image 1" style="width: 48%;"/>
+  <img src="public/Redme/default-web-page-code.png" alt="Image 2" style="width: 48%;"/>
 </div>
 <div style="display: flex; justify-content: space-between;">
-  <img src="public/default-web-page-code-edit.png" alt="Image 1" style="width: 48%;"/>
-  <img src="public/default-web-page-remove-allCss.png" alt="Image 2" style="width: 48%;"/>
+  <img src="public/Redme/default-web-page-code-edit.png" alt="Image 1" style="width: 48%;"/>
+  <img src="public/Redme/default-web-page-remove-allCss.png" alt="Image 2" style="width: 48%;"/>
 </div>
 
 Then remove all tsx (exact like HTML) only type `Hello World` , And Remove all `css` files.
@@ -152,4 +152,54 @@ createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 ```
+## Add Css
 
+| [Google Font](https://fonts.google.com/selection/embed) |
+| --- |
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+```
+### use font Family
+
+```go
+font-family: "Poppins", serif;
+```
+### and use it in `App.css` file
+```css
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
+
+### impost the css in `App.jsx` (its a Global variable U can use it everywhere)
+
+```jsx
+import "./App.css";
+```
+
+---
+
+### Break components in another `.jsx` file
+
+```yaml
+Project_1
+│
+│── node_module
+│── src
+│     │
+.     │── App.jsx
+.     └── Component:
+          │
+          │── Navigation.jsx:
+          └── ... 
+```
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="public/Redme/Breck components in another file (1).png" alt="Image 1" style="width: 48%;"/>
+  <img src="public/Redme/Breck components in another file (2).png" alt="Image 2" style="width: 48%;"/>
+</div>

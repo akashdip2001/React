@@ -75,12 +75,12 @@ npm run dev
 click the local URL and open the web-page. every component in this webpage is come from `App.jsx` file.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="Project_1/public/default-web-page.png" alt="Image 1" style="width: 48%;"/>
-  <img src="Project_1/public/default-web-page-code.png" alt="Image 2" style="width: 48%;"/>
+  <img src="Project_1/public/Redme/default-web-page.png" alt="Image 1" style="width: 48%;"/>
+  <img src="Project_1/public/Redme/default-web-page-code.png" alt="Image 2" style="width: 48%;"/>
 </div>
 <div style="display: flex; justify-content: space-between;">
-  <img src="Project_1/public/default-web-page-code-edit.png" alt="Image 1" style="width: 48%;"/>
-  <img src="Project_1/public/default-web-page-remove-allCss.png" alt="Image 2" style="width: 48%;"/>
+  <img src="Project_1/public/Redme/default-web-page-code-edit.png" alt="Image 1" style="width: 48%;"/>
+  <img src="Project_1/public/Redme/default-web-page-remove-allCss.png" alt="Image 2" style="width: 48%;"/>
 </div>
 
 Then remove all tsx (exact like HTML) only type `Hello World` , And Remove all `css` files.
