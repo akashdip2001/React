@@ -6,6 +6,8 @@
 ## Step 1
 | [install Node.js](https://nodejs.org/en/download/prebuilt-installer) |
 
+#### output
+
 ```bash
 PS C:\Users\akash\Desktop\Py Projects\React> node --version
 v22.11.0
@@ -16,6 +18,7 @@ PS C:\Users\akash\Desktop\Py Projects\React>
 ```bash
 npm create vite@latest
 ```
+#### output
 
 ```bash
 PS C:\Users\akash\Desktop\Py Projects\React> npm create vite@latest  
