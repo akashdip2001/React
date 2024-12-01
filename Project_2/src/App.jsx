@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import Navigation from './components/Navigation/Navigation'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h2>Akashdip</h2>
+    // Navigation() is a component that is imported from Navigation.jsx
+    <Navigation/> // Navigation component is called here
   )
 }
 
