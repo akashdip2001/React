@@ -1,3 +1,12 @@
 .btn{
-    
+    padding: 18px 10px;
+    background-color: black;
+    color: white;
+    max-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
 }

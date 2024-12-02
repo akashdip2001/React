@@ -1,9 +1,4 @@
-.box{
-
-}
-.box_form{
-
-}
-.box_Img{
-    
+.top_btn {
+    display: flex;
+    gap: 32px;
 }
