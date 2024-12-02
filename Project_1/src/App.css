@@ -69,10 +69,10 @@ nav ul li {
   -ms-user-select: none; /* For older IE */
   user-select: none; /* Standard */
 }
-.nav ul li:hover {
+nav ul li:hover {
   transform: scale(0.94);
 }
-.nav ul li:active {
+nav ul li:active {
   transform: scale(0.99);
 }
 
@@ -130,6 +130,7 @@ nav ul li {
 .social-icons {
   display: flex;
   gap: 16px;
+  cursor: pointer;
 }
 .amazon-icon {
   padding-top: 5px;
