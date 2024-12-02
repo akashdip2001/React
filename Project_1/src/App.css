@@ -63,6 +63,7 @@ nav ul {
 
 nav ul li {
   cursor: pointer;
+  transition: 1s;
   /* Block double-click to select text */
   -webkit-user-select: none; /* For Safari */
   -moz-user-select: none; /* For Firefox */
