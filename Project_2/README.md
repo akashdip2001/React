@@ -6,6 +6,7 @@ rafce
 ```
 
 | [React icons](https://react-icons.github.io/react-icons/) |
+| --- |
 
 ```bash
 npm install react-icons --save
