@@ -1,12 +1,12 @@
-import styles from './Button.module.css'
+import styles from "./Button.module.css";
 
-const Button = (props) => {
+const Button = ({ isOutline, icon, text }) => {
   return (
-    <div className={styles.btn}>
-      {props.icon}
-      {props.text}
+    <div className={isOutline ? styles.white_btn : styles.Primary_btn}>
+      {icon}
+      {text}
     </div>
   );
-}
+};
 
-export default Button
+export default Button;

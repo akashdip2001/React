@@ -1,4 +1,13 @@
-.btn{
+/* Before */
+/* const Button = (props) => {
+  return (
+    <div className={styles.Primary_btn}>
+      {props.icon}
+      {props.text}
+    </div>
+  );
+} */
+.Primary_btn{
     padding: 18px 10px;
     background-color: black;
     color: white;
@@ -10,3 +19,46 @@
     gap: 8px;
 
 }
+
+/* After */
+/* Create a variant of this button --> One Button File -> Two style in Two Places*/
+/* isOutline={true} --> ContactForm.jsx*/
+
+/* import styles from './Button.module.css'
+const Button = (props) => {
+  return (
+    <div className={props.isOutline ? styles.white_btn : styles.Primary_btn}>
+      {props.icon}
+      {props.text}
+    </div>
+  );
+}
+export default Button */
+
+.white_btn{
+    padding: 18px 10px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 220px;
+    font-size: 16px;
+    justify-content: center;
+    max-width: 472px;
+}
+
+/* or you can using Restructuring --> no need to write `props.` */
+/* import styles from "./Button.module.css";
+
+const Button = ({ isOutline, icon, text }) => {
+  return (
+    <div className={isOutline ? styles.white_btn : styles.Primary_btn}>
+      {icon}
+      {text}
+    </div>
+  );
+};
+
+export default Button; */
