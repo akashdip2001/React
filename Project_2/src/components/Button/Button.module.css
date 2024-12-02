@@ -11,12 +11,15 @@
     padding: 18px 10px;
     background-color: black;
     color: white;
-    max-width: 220px;
+    min-width: 220px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
+    cursor: pointer;
+    width: 220px;
+    height: 44px;
 
 }
 
@@ -47,6 +50,8 @@ export default Button */
     font-size: 16px;
     justify-content: center;
     max-width: 472px;
+    cursor: pointer;
+    height: 44px;
 }
 
 /* or you can using Restructuring --> no need to write `props.` */
@@ -62,3 +67,11 @@ const Button = ({ isOutline, icon, text }) => {
 };
 
 export default Button; */
+
+
+.Primary_btn:active{
+    transform: scale(0.99);
+}
+.white_btn:hover{
+    background-color: rgb(237, 247, 247);
+}

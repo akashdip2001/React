@@ -1,4 +1,53 @@
+.box {
+  display: flex;
+  width: 1161px;
+  height: 600px;
+}
+.box_form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 .top_btn {
+  display: flex;
+  gap: 32px;
+  padding-top: 71px;
+}
+.box_Img {
+  width: 608px;
+  height: 615px;
+}
+.form_name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.form_name input {
+  height: 40px;
+  padding: 0 8px;
+}
+.form_name label {
+  position: absolute;
+  font-size: 14px;
+  top: -12px;
+  left: 12px;
+  background-color: rgb(255, 255, 255);
+  padding: 0 8px;
+}
+.box_form form{
+    /* width: 329px; */
     display: flex;
+    flex-direction: column;
     gap: 32px;
+
+}
+.box_form form textarea{
+    padding: 8px;
+    height: 129px;
+}
+.box_form form .SUBMIT_btn{
+    display: flex;
+    justify-content: end;
+    
 }

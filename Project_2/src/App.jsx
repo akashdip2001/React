@@ -11,8 +11,10 @@ function App() {
     <div>
       {/* // Navigation() is a component that is imported from Navigation.jsx */}
       <Navigation /> {/*// Navigation component is called here*/}
-      <ContactHeader />
-      <ContactForm />
+      <main className='main_container'>
+        <ContactHeader />
+        <ContactForm />
+      </main>
     </div>
   );
 }
