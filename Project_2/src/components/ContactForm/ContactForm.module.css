@@ -1,7 +1,7 @@
 .box {
   display: flex;
   width: 1161px;
-  height: 600px;
+  /* height: 600px; */
 }
 .box_form {
   display: flex;
@@ -11,7 +11,7 @@
 .top_btn {
   display: flex;
   gap: 32px;
-  padding-top: 71px;
+  padding-top: 31px;
 }
 .box_Img {
   width: 608px;
