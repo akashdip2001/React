@@ -55,6 +55,21 @@ nav ul {
   gap: 24px;
 }
 
+nav ul li{
+  cursor: pointer;
+  /* Block double-click to select text */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+  user-select: none; /* Standard */
+}
+.nav ul li:hover {
+  transform: scale(0.94);
+}
+.nav ul li:active {
+  transform: scale(0.99);
+}
+
 .hero {
   display: flex;
   align-items: center;
