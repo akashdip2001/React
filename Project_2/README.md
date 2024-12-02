@@ -14,6 +14,6 @@ npm install react-icons --save
 
 ## imp things:
 
-###create `Button` component one time and Re use in using `= (props) => {}` (properties)
+### Create `Button` component one time and Re use in using `= (props) => {}` (properties)
 
 Know more : Show the `Componant` -> Button -> CSS
