@@ -1,7 +1,7 @@
 # React
 
 1) [Project 01](https://project1-sandy-nine.vercel.app/)
-2) 
+2) [Project 02](https://project2-cyan-beta.vercel.app/)
 
 ---
 
