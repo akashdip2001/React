@@ -6,7 +6,7 @@ const Navigation = () => {
       </div>
       <ul>
         <li href="#">Menu</li>
-        <li href="#">Location</li>
+        <li href="https://maps.app.goo.gl/XEfVPxS2VoGdCuKe7">Location</li>
         <li href="https://akashdip2001.github.io/website-2/">About</li>
         <li href="https://akashdip2001.github.io/linktree/">Contact</li>
       </ul>

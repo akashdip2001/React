@@ -1,4 +1,3 @@
-
 .navication {
   display: flex;
   justify-content: space-between;
@@ -17,8 +16,23 @@
   align-items: center;
   gap: 25px;
   font-weight: 500;
+  /* Block double-click to select text */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+  user-select: none; /* Standard */
 }
 .logo img {
   width: 50px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
+}
+.navication ul li {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.navication ul li:hover {
+  transform: scale(0.94);
+}
+.navication ul li:active {
+  transform: scale(0.99);
 }
