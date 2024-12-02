@@ -30,11 +30,17 @@ button {
   font-weight: 500;
 }
 
-.login-btn{
-    height: 21px;
-    align-items: center;
-    /* border-radius: 15%; */
-    padding: 6px 16px 10px;
+.login-btn {
+  height: 21px;
+  align-items: center;
+  /* border-radius: 15%; */
+  padding: 6px 16px 10px;
+  cursor: pointer;
+  /* Block double-click to select text */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+  user-select: none; /* Standard */
 }
 
 .main-container {
@@ -55,7 +61,7 @@ nav ul {
   gap: 24px;
 }
 
-nav ul li{
+nav ul li {
   cursor: pointer;
   /* Block double-click to select text */
   -webkit-user-select: none; /* For Safari */
@@ -97,12 +103,24 @@ nav ul li{
   display: flex;
   gap: 40px;
   font-size: 24px;
+  cursor: pointer;
+  /* Block double-click to select text */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+  user-select: none; /* Standard */
 }
 
 .hero-button-2 {
   background: transparent;
   color: var(--gray);
   border: 1px solid var(--gray);
+  cursor: pointer;
+  /* Block double-click to select text */
+  -webkit-user-select: none; /* For Safari */
+  -moz-user-select: none; /* For Firefox */
+  -ms-user-select: none; /* For older IE */
+  user-select: none; /* Standard */
 }
 
 .social p {
@@ -114,7 +132,7 @@ nav ul li{
   gap: 16px;
 }
 .amazon-icon {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .hero-img {
